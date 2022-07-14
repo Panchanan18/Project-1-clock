@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My clock</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <navbar id="nav">
+            <div id="logo">
+                <img src="logo.jpeg" alt="logo">
+                <h4>Clock</h4>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <input type="text" placeholder="searc here">
+            <button>Sign in</button>
+        </navbar>
+    </header>
+    <section id="content">
+        <div class="box">
+            <h2>Current Time is : <span id="time"></span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum eos placeat provident deleniti
+                officia ab omnis accusantium aliquam ad minima sit, facilis odit quia at dolorum nulla pariatur ea neque
+                aut molestiae unde!
+            </p>
+            <br>
+            <br>
+            <p>Lorem, ipsum dolor sit amet elit. Doloremque, inventore.</p>
+            <button>Browse Items</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+    <!-- <script>
+        let time;
+        let day;
+        let timeString;
+        setInterval(() => {
+            time = new Date();
+            timeString = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+            day = time.getDate() + "/" + time.getMonth() + 1 + "/" + time.getFullYear();
+            document.getElementById('time').innerHTML = timeString + " ON " + day;
+
+        }, 1000);
+    </script> -->
+
+</body>
+
+</html>
